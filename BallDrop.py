@@ -186,5 +186,5 @@ if __name__ == "__main__":
         obstaclepoint.set_xdata(obstaclepositions[:,0])
         obstaclepoint.set_ydata(obstaclepositions[:,1])
         plt.draw()
-    print Ball.ncollide
+    print(Ball.ncollide)
         
